@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    padding: 1rem;
+}
+.nav-menu{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.items-container{
+    display: grid;
+    min-height: 50vh;
+    place-items: center;
+    background-color:beige
+
+
+}
